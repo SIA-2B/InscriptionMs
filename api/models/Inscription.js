@@ -8,6 +8,7 @@
 module.exports = {
 
     attributes: {
+        citation_id: { type: 'number', columnType: 'int' },
         student_id: { type: 'number', columnType: 'int' },
         inscription_date: { type: 'ref', columnType: 'date' },
         total_credits: { type: 'number', columnType: 'int' },
