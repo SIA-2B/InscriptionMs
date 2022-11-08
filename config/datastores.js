@@ -49,7 +49,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-mysql',
-    url: 'mysql://development:siaunal2022@localhost:3305/inscription_db',
+    url: 'mysql://development:development@containers-us-west-100.railway.app:7933/inscription_db',
 
   },
 
