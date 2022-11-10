@@ -15,6 +15,8 @@ module.exports.routes = {
   'GET /inscription/getPendingCitations'               : 'CitationController.getAllPendingCitations',
   'GET /inscription/getPendingCitationsByCurriculum'   : 'CitationController.getPendingCitationsByCurriculum',
   'GET /inscription/getHistoricCitations'              : 'CitationController.getHistoricCitations',
+  'POST /inscription/registerInscription'              : 'InscriptionController.createInscription',
+
 
 
 
